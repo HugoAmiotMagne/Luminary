@@ -1,0 +1,50 @@
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-help {
+    padding-right: 20px;
+}
+
+.contact-button{
+    text-align: end;
+    
+}
+
+.contact-button button {
+    padding: 10px 20px;
+    background-color: rgb(91, 91, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+.contact-button button:hover {
+    background-color: rgb(91, 91, 255);
+    color: white;
+    opacity: 0.7 ;
+}
+
+.copyright {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.social-icons a {
+    text-align: center;
+    margin-right: 25px;
+    color: #777;
+    font-size: 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+

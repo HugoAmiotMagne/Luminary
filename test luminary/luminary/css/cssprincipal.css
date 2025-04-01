@@ -1,0 +1,88 @@
+body {
+    
+    margin: 0;
+
+}
+
+
+.Titre {
+    text-align: center;
+    font-size: 1.6em;
+    text-decoration: underline;
+    text-decoration: solid;
+    font-family: 'Abril Fatface', serif;
+}
+
+/* bordure image dans colonnes 1, 2, 3 et 4*/
+.img2, .img3{
+    
+    border-radius: 15px;
+
+}
+
+/* Colonne 1 et 3*/
+.column1 {
+    margin: 20px;
+    border: 3px solid #fff;                               /* bordure pour faire un effet d'ombre*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);          /* effet d'ombre*/
+    border-radius: 15px;                                    /* effet pour que les angles soit arrondi*/
+    padding: 2%;
+    display: flex;
+    vertical-align: top;
+    font-size: 1.3em;
+}
+
+.img2, .texte1 {
+    border-radius: 15px;
+    width: 50%;
+    margin: 25px;
+    border-radius: 2px ;
+}
+
+/* Colonne 2 et 4*/
+.column2 {
+    margin: 20px;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 2%;
+    display: flex;
+    vertical-align: top;
+    font-size: 1.3em;
+} 
+
+.img3, .texte2 {
+
+    width: 50%;
+    margin: 25px;
+    border-radius: 2px ;
+    
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.commande-button{
+    text-align: end;
+    
+}
+
+.commande-button button {
+    padding: 10px 20px;
+    background-color: rgb(91, 91, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+.commande-button button:hover {
+    background-color: rgb(91, 91, 255);
+    color: white;
+    opacity: 0.7 ;
+}
